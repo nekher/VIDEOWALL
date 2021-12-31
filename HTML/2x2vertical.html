@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEOWALL 2x2 Vertical</title>
+   
+<style>
+body, html { height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:black; /* cambia el fondo total (el centro del iframe) */
+	overflow: hidden; /*remueve la barra gris horizontal*/
+	}
+ 
+.recuadro {
+	border:1px solid black;
+	width:100%;
+	display:inline-block;
+	height:49.5%;
+	overflow:hidden;
+	
+}
+
+/* estos colores afectan el background de cada iframe por separado y puede estar deshabilitado
+#uno{
+	background-color:#ffff;
+	}
+#tres{
+	background-color:#ffff;
+	}
+	*/
+</style>
+</head>
+<body>
+	<div class='recuadro' id="uno">
+		<iframe width="100%" height="100%" src="iframe1.html" scrolling="no"  overflow="hidden" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<br>
+	<div class='recuadro' id="tres">
+		<iframe width="100%" height="100%" src="iframe3.html" scrolling="no"  overflow="hidden" frameborder="0" allowfullscreen></iframe>
+	
+</body>
+</html>
