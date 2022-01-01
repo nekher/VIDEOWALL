@@ -1,9 +1,6 @@
 #hero {
     position:relative;
 }
-
-
-
 #hero video{
 
     height: 100vh;
@@ -11,29 +8,6 @@
     background-position: absolute;
     z-index: 10;
     object-fit: cover;
-    
-
-}
-
-/* a partir de aca hace referencia al texto */
-ul{
-    color:cornsilk;
-}
-
-h1{
-    color: blanchedalmond;
-}
-h2{
-    color:blanchedalmond;
-}
-h3{
-    color: burlywood;
-}
-h4{
-    color: cornsilk;
-}
-p{
-    color: #ffff;
 }
 #hero .content {
 
@@ -56,4 +30,53 @@ p{
 
     color:#ffff;
     font-weight: 300;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn:hover {background: rgb(102, 50, 187);
+}
+
+.default {color: rgba(0, 0, 0, 0);
+}
+
+.small-btn {
+    border: none;
+    background-color: inherit;
+    padding: 1px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.small-btn:hover {background: rgb(102, 50, 187);
+}
+
+
+/* a partir de aca hace referencia al texto */
+ul{
+    color:cornsilk;
+}
+h1{
+    color: blanchedalmond;
+}
+h2{
+    color:blanchedalmond;
+}
+h3{
+    color: burlywood;
+}
+h4{
+    color: cornsilk;
+}
+p{
+    color: #ffff;
 }

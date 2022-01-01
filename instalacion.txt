@@ -1,0 +1,20 @@
+Para que pueda ejecutarse sin problemas, copiar la carpeta videowall en el C: de la pc
+
+Deberia quedar: c:\videowall\
+
+Luego, dentro de la carpeta videowall, existe una carpeta denominada "Accesos directos para el escritorio"
+Copiar los accesos directos y pegarlos en el escritorio de windows.
+
+2x2H abrira el modo Videowall en 2x2 Horizontal
+2x2V abrira el modo Videowall en 2x2 Vertical
+4x4  abrira el modo Videowall en 4x4
+MENU VIDEOWALL abre el menu y pantalla de "configuracion y contacto"
+
+Recuerden reemplazar los archivos .mp4 por aquellos que tengan los .ppt transformados a video y renombrarlos "video1" "video2" "video3" y "video4"
+Si no, no funcionara.
+
+Por ultimo:
+
+En 4x4 recuerden que con f11 acceden a pantalla completa
+y en el modo 2x2H pueden agrupar la ventana al costado de la pantalla y estar mostrando OTRAS COSAS en los otros 2 monitores.
+
