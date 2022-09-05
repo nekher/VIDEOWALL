@@ -1,2 +1,0 @@
-# videowall
-Test provisiorio
